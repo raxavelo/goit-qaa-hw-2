@@ -9,7 +9,7 @@ describe('checkAge', () => {
         expect(isAdult(16)).toBe(false);
     });
 
-    it('returns false for age 18', () => {
+    it('returns true for age 18', () => {
         expect(isAdult(18)).toBe(true);
     });
 })
