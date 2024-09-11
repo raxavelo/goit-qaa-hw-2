@@ -4,6 +4,6 @@
   },
 
   "scripts": {
-    "test": "jasmine"
+    "test": "node ./prettyReporter.js"
   }
 }
